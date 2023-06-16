@@ -1,0 +1,45 @@
+
+body{
+    min-width: 280px;
+    background-image: url(https://wallpapertag.com/wallpaper/full/0/d/0/465783-vertical-pink-purple-and-blue-backgrounds-1920x1080-photos.jpg);
+}
+.converter-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px ;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.54);
+    min-width: 150px;
+
+}
+input{
+    width: 45%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+select{
+    padding: 3px 2px;
+    height: 20px;
+    width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+option {
+    width: 20%;
+}
+
